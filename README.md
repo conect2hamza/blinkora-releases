@@ -30,7 +30,7 @@ People who spend hours at a computer and end up with tired eyes, sitting too lon
   - Eye break: 30 s every 20 min.
   - Walk break: 2 min every hour.
   - Water break: 2 min every 90 min.
-  - Each has its own simple animation, and all of them are adjustable. Presets: Gentle, Balanced and Strict.
+  - Each has its own animation: cartoon eyes that look around and blink, a round-headed character walking, and a glass that fills up and is sipped through a straw. All of them are adjustable. Presets: Gentle, Balanced and Strict.
 - **Counts active time only.** Time away from the keyboard doesn't count, and a long absence counts as a break.
 - **Smart pause.** Breaks wait while you're in a call, presenting, or using a fullscreen app, game or video, or one of your chosen "ignored" apps.
 - **Heads-up first.** A small card appears before each break, with Start now and Postpone.

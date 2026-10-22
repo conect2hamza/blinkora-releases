@@ -2,7 +2,7 @@
 
 Blinkora reminds you to rest your eyes, get up and walk, and drink water while you work at a computer. It counts only the time you are actually working, holds breaks while you are in a call or a fullscreen app, and keeps all of its data on your computer.
 
-Screenshots in this guide come from the real app (version 0.3.3 on Windows 11), run in its built-in demo mode.
+Screenshots in this guide come from the real app (Windows 11), run in its built-in demo mode.
 
 ## Contents
 
@@ -101,8 +101,9 @@ The break screen covers every monitor. On Windows the background is a blurred im
 | --- | --- | --- |
 | ![Eye break](screenshots/features/break-eye.png) | ![Walk break](screenshots/features/break-walk.png) | ![Water break](screenshots/features/break-water.png) |
 | 30 s. Look at something far away and blink | 2 min. Stand up, stretch and walk | 2 min. Drink a glass of water |
+| Cartoon eyes look down, left, right and up, lift their brows and blink | A round-headed character walks along a moving floor | A glass fills up, then a straw goes in and the water is sipped away |
 
-Each break shows a simple animation, a countdown in seconds and two buttons:
+Each break shows its animation, a countdown in seconds and two buttons:
 
 - **Postpone 1 min**, while postpones are left.
 - **Skip this break**, or press **Esc**.
