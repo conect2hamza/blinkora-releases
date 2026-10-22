@@ -83,7 +83,7 @@ On first start, a short setup asks for your theme, break rhythm, work hours and 
 - **Find it:** Blinkora runs in the system tray (the menu bar on Mac). Click the icon for timers, pause and _Take a break now_; right-click for a menu.
 - **When a break comes:**
   - A heads-up card appears first (Start now / Postpone 5 min).
-  - The break screen then covers every monitor, with Postpone 1 min and Skip (or **Esc**).
+  - The break screen then covers every monitor, with Postpone 1 min and Skip (or **Esc**). On a water break, **Done, I drank it** ends the break as soon as you have had your water.
 - **Settings:** open the dashboard from the tray to see your stats and change any setting.
 - **Background:** closing the dashboard doesn't stop Blinkora. Use **Quit** in the tray to stop it.
 - **Shortcut:** **Ctrl+Alt+B** (Mac: Cmd+Alt+B) takes a break now.

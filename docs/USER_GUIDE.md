@@ -103,8 +103,9 @@ The break screen covers every monitor. On Windows the background is a blurred im
 | 30 s. Look at something far away and blink | 2 min. Stand up, stretch and walk | 2 min. Drink a glass of water |
 | Cartoon eyes look down, left, right and up, lift their brows and blink | A round-headed character walks along a moving floor | A glass fills up, then a straw goes in and the water is sipped away |
 
-Each break shows its animation, a countdown in seconds and two buttons:
+Each break shows its animation, a countdown in seconds and these buttons:
 
+- **Done, I drank it** (water break only) ends the break straight away and counts it as taken.
 - **Postpone 1 min**, while postpones are left.
 - **Skip this break**, or press **Esc**.
 - In **Strict mode**, Skip is locked for the first half of the break.
