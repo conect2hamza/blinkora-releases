@@ -257,7 +257,7 @@ Right-click Blinkora in Applications → **Open → Open**. On macOS 15+, use **
 Breaks count *active* time only. They also wait while you're away, outside your work hours, in a call, or in a fullscreen app. The tray shows exactly how long is left.
 
 **Blinkora doesn't start when I log in, even though "Start at login" is on.**
-Something removed Blinkora's login entry, for example a cleanup tool or Windows Security. Turn **Start at login** on again under **Breaks**. Since version 0.3.8 Blinkora shows the setting as off when the entry is missing instead of quietly putting it back. If you switched Blinkora off under **Task Manager → Startup apps**, switch it back on there; Blinkora respects that choice.
+Something removed Blinkora's login entry, for example a cleanup tool or Windows Security. Turn **Start at login** on again under **Breaks**. Blinkora now shows the setting as off when the entry is missing instead of quietly putting it back. If you switched Blinkora off under **Task Manager → Startup apps**, switch it back on there; Blinkora respects that choice.
 
 **Windows Security removed Blinkora ("Trojan:Win32/Bearfoos.A!ml" or "contains a virus").**
 This is a false alarm: Microsoft's automatic guess about a new program that isn't code-signed yet. Open **Windows Security → Virus & threat protection → Protection history**, open the Blinkora entry and choose **Actions → Allow on device**, then run the Blinkora setup file again. Your settings and history are kept. Turn **Start at login** on again under **Breaks** if you want it.
