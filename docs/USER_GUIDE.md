@@ -202,7 +202,7 @@ Theme (System, Light, Dark), colour theme, the chime at the end of a break, and 
 - Lists what Blinkora stores and what it never reads.
 - **Check for updates automatically**, on or off.
 - **Export data** as JSON or CSV to a file you choose.
-- **Delete all data** removes your break history and activity but keeps your settings. It always asks first:
+- **Delete all data** removes your break history and activity, including the backup copies Blinkora makes before an update changes its database, but keeps your settings. It always asks first:
 
 ![Delete confirmation](screenshots/workflows/delete-history-confirm.png)
 
@@ -240,7 +240,7 @@ What the app does, as written in its code and shown on its **Privacy & data** pa
   - When each break was due, and whether you took, skipped or postponed it.
   - How many seconds per minute you were active.
   - Your settings.
-- **Kept for:** break history is deleted after 90 days and activity after 30 days.
+- **Kept for:** break history and daily totals are deleted after 90 days, activity after 30 days.
 - **Never read or stored:** what you type, mouse position, window titles, websites, clipboard or audio. The microphone check only asks whether *any* app is using the microphone.
 - **Break background (Windows):** the blurred image of your screen exists only in memory while the break is open.
 - **Network:** no account, no cloud, no analytics. The only network request is the optional update check against GitHub, and updates are only installed if their signature matches.
@@ -257,7 +257,10 @@ Right-click Blinkora in Applications → **Open → Open**. On macOS 15+, use **
 Breaks count *active* time only. They also wait while you're away, outside your work hours, in a call, or in a fullscreen app. The tray shows exactly how long is left.
 
 **Blinkora doesn't start when I log in, even though "Start at login" is on.**
-Since version 0.3.4 Blinkora repairs a missing login entry each time it starts. On older versions, turn **Start at login** off and on again under **Breaks**. If you switched Blinkora off under **Task Manager → Startup apps**, switch it back on there; Blinkora respects that choice.
+Something removed Blinkora's login entry, for example a cleanup tool or Windows Security. Turn **Start at login** on again under **Breaks**. Since version 0.3.8 Blinkora shows the setting as off when the entry is missing instead of quietly putting it back. If you switched Blinkora off under **Task Manager → Startup apps**, switch it back on there; Blinkora respects that choice.
+
+**Windows Security removed Blinkora ("Trojan:Win32/Bearfoos.A!ml" or "contains a virus").**
+This is a false alarm: Microsoft's automatic guess about a new program that isn't code-signed yet. Open **Windows Security → Virus & threat protection → Protection history**, open the Blinkora entry and choose **Actions → Allow on device**, then run the Blinkora setup file again. Your settings and history are kept. Turn **Start at login** on again under **Breaks** if you want it.
 
 **A break screen won't go away.**
 Press **Esc** or click **Skip this break**. If that doesn't help, **Quit** Blinkora from the tray and start it again.

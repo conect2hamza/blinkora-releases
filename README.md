@@ -107,13 +107,14 @@ Full step-by-step guide with all settings: **[docs/USER_GUIDE.md](docs/USER_GUID
 
 ## Troubleshooting
 
-| Problem                                           | What to do                                                                                                                                                |
-| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "Windows protected your PC"                       | Click **More info → Run anyway** (the installer isn't code-signed yet).                                                                                   |
-| Mac says the app can't be opened                  | Right-click → **Open → Open**, or **Privacy & Security → Open Anyway**.                                                                                   |
-| A break didn't come when expected                 | Only active work time counts, and breaks wait during calls, fullscreen apps and outside work hours. The tray shows the time left.                         |
-| Doesn't start at login although the setting is on | Update to the latest version, which repairs a missing login entry at start. On older versions, turn **Start at login** off and on again under **Breaks**. |
-| A break screen won't close                        | Press **Esc** or **Skip**; if that fails, **Quit** from the tray and restart.                                                                             |
+| Problem                                                          | What to do                                                                                                                                                                                                       |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "Windows protected your PC"                                      | Click **More info → Run anyway** (the installer isn't code-signed yet).                                                                                                                                          |
+| Mac says the app can't be opened                                 | Right-click → **Open → Open**, or **Privacy & Security → Open Anyway**.                                                                                                                                          |
+| A break didn't come when expected                                | Only active work time counts, and breaks wait during calls, fullscreen apps and outside work hours. The tray shows the time left.                                                                                |
+| Doesn't start at login although the setting is on                | Something removed the login entry. Turn **Start at login** on again under **Breaks**.                                                                                                                            |
+| Windows Security removed Blinkora ("Trojan:Win32/Bearfoos.A!ml") | A false alarm about a program that isn't code-signed yet. In **Windows Security → Protection history**, choose **Actions → Allow on device**, then run the setup file again. Your settings and history are kept. |
+| A break screen won't close                                       | Press **Esc** or **Skip**; if that fails, **Quit** from the tray and restart.                                                                                                                                    |
 
 More answers in the [user guide](docs/USER_GUIDE.md#troubleshooting-and-faq).
 
