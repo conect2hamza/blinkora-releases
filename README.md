@@ -121,4 +121,7 @@ More answers in the [user guide](docs/USER_GUIDE.md#troubleshooting-and-faq).
 
 - **Unsigned installers:** Windows and macOS warn on first install.
 - **Mac version:** not yet tested on a real Mac, and it doesn't update itself yet.
-- **No licence chosen yet.**
+
+## Licence
+
+MIT, see [LICENSE](LICENSE).
